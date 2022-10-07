@@ -318,6 +318,9 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+  .portfolio-wrap img{
+    height: auto !important;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -658,6 +661,10 @@ section {
   background: rgba(20, 157, 221, 0.75);
   transition: 0.3s;
   width: 50%;
+}
+
+.portfolio-wrap img{
+  height: 240px !important;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
