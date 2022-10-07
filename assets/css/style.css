@@ -665,6 +665,7 @@ section {
 
 .portfolio-wrap img{
   height: 240px !important;
+  width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
