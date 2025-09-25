@@ -190,16 +190,18 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     if (typeof Typed !== "undefined") {
-      new Typed("#typed-code", {
+      new Typed("#typed-terminal-code", {
         strings: [
           "const name = 'Aniket';",
           "const skills = ['React', 'Next.js', 'Node.js'];",
-          "fetch('/api/projects').then(showcase);",
-          "// Full-stack developer in action 🚀"
+          "const focus = 'AI + UX-Driven Apps';",
+          "launch(projects); // 🚀"
         ],
         typeSpeed: 40,
-        backSpeed: 25,
-        loop: true
+        backSpeed: 20,
+        loop: true,
+        showCursor: true,
+        cursorChar: "_"
       });
     }
   });
