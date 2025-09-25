@@ -431,7 +431,18 @@ section {
   display: inline-block;
   margin-top: 40px;
  }
- 
+
+.typed-code-box {
+  background: #0f172a;
+  color: #00ff99;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: 'Courier New', monospace;
+  width: 100%;
+  max-width: 320px;
+  height: 250px;
+  overflow: hidden;
+} 
 
 /*--------------------------------------------------------------
 # Facts
