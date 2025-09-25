@@ -432,17 +432,51 @@ section {
   margin-top: 40px;
  }
 
-.typed-code-box {
-  background: #0f172a;
-  color: #00ff99;
-  padding: 20px;
+.code-terminal {
+  background-color: #0f172a;
   border-radius: 10px;
-  font-family: 'Courier New', monospace;
-  width: 100%;
-  max-width: 320px;
-  height: 250px;
   overflow: hidden;
-} 
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  font-family: 'Courier New', monospace;
+}
+
+.terminal-header {
+  background-color: #1e293b;
+  padding: 10px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.red {
+  background-color: #f87171;
+}
+
+.yellow {
+  background-color: #facc15;
+}
+
+.green {
+  background-color: #4ade80;
+}
+
+.terminal-body {
+  padding: 20px;
+  color: #00ff99;
+  height: 200px;
+  overflow: hidden;
+}
+
 
 /*--------------------------------------------------------------
 # Facts
