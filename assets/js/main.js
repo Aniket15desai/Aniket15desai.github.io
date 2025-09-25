@@ -188,6 +188,22 @@
 
   });
 
+  document.addEventListener("DOMContentLoaded", function () {
+    if (typeof Typed !== "undefined") {
+      new Typed("#typed-code", {
+        strings: [
+          "const name = 'Aniket';",
+          "const skills = ['React', 'Next.js', 'Node.js'];",
+          "fetch('/api/projects').then(showcase);",
+          "// Full-stack developer in action 🚀"
+        ],
+        typeSpeed: 40,
+        backSpeed: 25,
+        loop: true
+      });
+    }
+  });
+
   /**
    * Initiate portfolio lightbox 
    */
